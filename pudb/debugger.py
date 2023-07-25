@@ -38,7 +38,6 @@ from pudb.lowlevel import decode_lines, ui_log
 from pudb.settings import load_config, save_config, get_save_config_path
 
 CONFIG = load_config()
-save_config(CONFIG)
 
 HELP_HEADER = r"""
 Key Assignments: Use Arrow Down/Up or Page Down/Up to scroll.
